@@ -1,0 +1,15 @@
+### GET Meals
+GET http://localhost:5285
+
+### GET Meal by Id
+GET http://localhost:5285/4f39f1d2-4d63-457c-704b-08dd78dfcf73
+
+### POST Meal
+POST http://localhost:5285
+Content-Type: application/json
+
+{
+  "id": "4f39f1d2-4d63-457c-704b-08dd78dfcf73",
+  "name": "Tarte Flambée",
+  "concurrencyToken": "AAAAAAAAB9E="
+}
